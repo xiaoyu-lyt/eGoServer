@@ -14,5 +14,6 @@ return array(
         // 获取验证码
         array('verify-code/:tel$', 'User/verifyCode', '', array('method' => 'get')),
         array('register$', 'User/register', '', array('method' => 'post')),
+        array('login', 'User/login', '', array('method' => 'post')),
     )
 );

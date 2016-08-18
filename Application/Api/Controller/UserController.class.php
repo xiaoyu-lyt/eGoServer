@@ -44,4 +44,29 @@ class UserController extends BaseController
         }
         $this->response(array('token' => $token), 'json', 201);
     }
+    
+    /**
+     * 用户登录检验,登录成功返回新token,用户不存在返回0,账号或密码错误返回1,token更新失败返回2
+     * @access public
+     */
+    public function login_post() {
+        $tel = I('post.tel');
+        $password = I('post.password');
+        
+        $result = D('User')->checkLogin($tel, $password);
+        switch ($result) {
+            case '0':
+                $this->response(array('error' => '用户不存在'), 'json', 404);
+                break;
+            case '1':
+                $this->response(array('error' => '账号或密码错误'), 'json', 400);
+                break;
+            case '2':
+                $this->response(array('error' => 'token更新失败'), 'json', 400);
+                break;
+            default:
+                $this->response(array('token' => $result), 'json', 201);
+                break;
+        }
+    }
 }

@@ -49,4 +49,31 @@ class UserModel extends BaseModel
         }
         return $data['token'];
     }
+    
+    /**
+     * 登录检验,登录成功返回token,用户不存在返回0,密码错误返回1,token更新失败返回2
+     * @access public
+     *
+     * @param string $tel      用户手机号
+     * @param string $password 用户密码
+     *
+     * @return int|string
+     */
+    public function checkLogin($tel, $password) {
+        $salt = M('User')->where("tel = '{$tel}'")->getField('salt');
+        $hash = M('User')->where("tel = '{$tel}'")->getField('hash');
+        
+        if (!$hash) {
+            return 0;
+        } elseif (md5(hash('sha256', $password) . $salt) != $hash) {
+            return 1;
+        }
+        
+        $data['token'] = create_token($tel);
+        $id = M('User')->where("tel = '{$tel}'")->save($data);
+        if (!$id) {
+            return 2;
+        }
+        return $data['token'];
+    }
 }
