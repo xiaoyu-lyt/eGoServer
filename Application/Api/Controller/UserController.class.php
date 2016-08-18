@@ -25,7 +25,7 @@ class UserController extends BaseController
         
         $verifyCode = send_verify_code($tel);
         if ($verifyCode === 0) {
-            $this->response(array('error' => '验证码发送失败'), 'json', 200);
+            $this->response(array('error' => '验证码发送失败'), 'json', 500);
         }
         $this->response(array('verifyCode' => $verifyCode), 'json', 200);
     }

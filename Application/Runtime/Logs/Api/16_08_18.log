@@ -598,3 +598,215 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
 ERR: 非法操作:getuserinfo
 
+[ 2016-08-18T15:05:46+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0028s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `ego_user` SET `token`='f7238573c082e537ce47fc26cf55bea7' WHERE ( tel = '15659430523' ) [ RunTime:0.0002s ]
+
+[ 2016-08-18T15:05:47+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0024s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `ego_user` SET `token`='334f75e99b1128ce5dd13e957fd2dbe8' WHERE ( tel = '15659430523' ) [ RunTime:0.0002s ]
+
+[ 2016-08-18T16:03:00+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0010s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `ego_user` SET `token`='444074eade30f653833ad357d52d4be4' WHERE ( tel = '15659430523' ) [ RunTime:0.0002s ]
+
+[ 2016-08-18T16:03:00+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0013s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `ego_user` SET `token`='a67df4740093797cf4f33070d9296493' WHERE ( tel = '15659430523' ) [ RunTime:0.0002s ]
+
+[ 2016-08-18T16:05:18+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0022s ]
+SQL: INSERT INTO `ego_user` (`tel`,`salt`,`hash`,`token`) VALUES ('15659430524','SKf8decj','b8708708990e0a3309ade54eef20be69','ee8f2153be03f9cf5660239887968936') [ RunTime:0.0014s ]
+
+[ 2016-08-18T16:05:58+08:00 ] ::1 /coding/API/eGoServer/index.php/api/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8] Uninitialized string offset: 62 /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Common/functions.php 第 31 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0012s ]
+SQL: INSERT INTO `ego_user` (`tel`,`salt`,`hash`,`token`) VALUES ('15659430525','CrK4zjM','63e663fc7f8c318fc380aac19b34a054','e1330734c6982e714250fe96846afe68') [ RunTime:0.0003s ]
+
+[ 2016-08-18T16:14:46+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0017s ]
+ERR: 1062:Duplicate entry '15659430524' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `ego_user` (`tel`,`salt`,`hash`,`token`) VALUES ('15659430524','cwVwGuej','1f35a5aeed1f2c2388cd4f44daf4dd2d','f8ec6fef65734c09dbf7a11bce95745b')
+ERR: 1062:Duplicate entry '15659430524' for key 'tel'
+ [ SQL语句 ] : INSERT INTO `ego_user` (`tel`,`salt`,`hash`,`token`) VALUES ('15659430524','cwVwGuej','1f35a5aeed1f2c2388cd4f44daf4dd2d','f8ec6fef65734c09dbf7a11bce95745b')
+
+[ 2016-08-18T16:14:58+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0064s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `ego_user` SET `token`='c7fd268f99c524f2d339b7b79ca3b372' WHERE ( tel = '15659430523' ) [ RunTime:0.0002s ]
+
+[ 2016-08-18T16:15:01+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0020s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `ego_user` SET `token`='825f5e76ba9f9b838c6bc054c112bbf0' WHERE ( tel = '15659430523' ) [ RunTime:0.0002s ]
+
+[ 2016-08-18T16:27:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0010s ]
+SQL: INSERT INTO `ego_user` (`tel`,`salt`,`hash`,`token`) VALUES ('15659430521','1PIp0Ak0','6533748ed2fdc8732cca7d2398745d69','86e024d8fdc7ab69d52353e4f4116ca1') [ RunTime:0.0002s ]
+
+[ 2016-08-18T16:28:01+08:00 ] ::1 /coding/API/eGoServer/index.php/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0013s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430521' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430521' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ego_user` SET `token`='c7d7a348e68381e4f22246e1b894c044' WHERE ( tel = '15659430521' ) [ RunTime:0.0004s ]
+
+[ 2016-08-18T16:28:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0017s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430522' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430522' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-18T16:28:35+08:00 ] ::1 /coding/API/eGoServer/index.php/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0018s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-18T16:29:23+08:00 ] ::1 /coding/API/eGoServer/index.php/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0016s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430522' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430522' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-08-18T16:29:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0024s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-18T16:29:43+08:00 ] ::1 /coding/API/eGoServer/index.php/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0033s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430522' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430522' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-08-18T16:39:56+08:00 ] ::1 /coding/API/eGoServer/api/verify-code/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Verify-code
+
+[ 2016-08-18T16:40:00+08:00 ] ::1 /coding/API/eGoServer/api/verify-code/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-18T16:40:33+08:00 ] ::1 /coding/API/eGoServer/api/verify-code/15659430522.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ego_user` WHERE ( tel = '15659430522' ) LIMIT 1   [ RunTime:0.0006s ]
+
