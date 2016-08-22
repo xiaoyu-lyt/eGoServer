@@ -1,0 +1,543 @@
+[ 2016-08-19T16:49:21+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/token/123.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+ERR: 非法操作:token
+
+[ 2016-08-19T16:49:44+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/123.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+ERR: 非法操作:123
+
+[ 2016-08-19T16:50:01+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/123.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0032s ]
+
+[ 2016-08-19T16:50:49+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `ego_user` (`tel`,`salt`,`hash`,`token`) VALUES ('15659430523','CFC6wgZp','e029be6a8b86b75374bc504cb52142e1','6f21fbddfa3cb74903126d82fd2af92e') [ RunTime:0.0010s ]
+
+[ 2016-08-19T16:51:09+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T16:52:20+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T16:52:21+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-08-19T16:54:06+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-08-19T16:54:06+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T16:54:25+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T16:55:20+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/'6f21fbddfa3cb74903126d82fd2af92e'.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T16:55:24+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-19T16:55:39+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-08-19T16:55:41+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T16:56:04+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2] Missing argument 1 for Api\Controller\UserController::_before_getUserInfo_get() /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: token /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T16:57:37+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-19T17:00:55+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+ERR: 非法操作:6f21fbddfa3cb74903126d82fd2af92e
+
+[ 2016-08-19T17:01:07+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-08-19T17:01:18+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e/156594305231.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ego_user` WHERE ( tel = '156594305231' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:01:29+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e1/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e1' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:09:28+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/student-verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e1' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:09:46+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/student-verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ego_user` SET `name`='林渊腾',`gender`='1',`school`='福州大学',`college`='软件学院',`major`='软件工程' WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) [ RunTime:0.0022s ]
+
+[ 2016-08-19T17:10:22+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/student-verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `ego_user` SET `name`='林渊腾',`gender`='1',`school`='福州大学',`college`='软件学院',`major`='软件工程',`stu_num`='221300313' WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) [ RunTime:0.0005s ]
+
+[ 2016-08-19T17:10:39+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/student-verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ego_user` SET `name`='林洋洋',`gender`='1',`school`='福州大学',`college`='软件学院',`major`='软件工程',`stu_num`='221300312' WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) [ RunTime:0.0004s ]
+
+[ 2016-08-19T17:10:59+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/student-verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-08-19T17:11:28+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/student-verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ego_user` SET `name`='林渊腾',`gender`='1',`school`='福州大学',`college`='软件学院',`major`='软件工程',`stu_num`='221300313' WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) [ RunTime:0.0003s ]
+
+[ 2016-08-19T17:15:44+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0010s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `ego_user` SET `token`='0952bd77622b801ea8c0bd2a1f9ce529' WHERE ( tel = '15659430523' ) [ RunTime:0.0004s ]
+
+[ 2016-08-19T17:16:17+08:00 ] ::1 /coding/API/eGoServer/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0025s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430522' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430522' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-08-19T17:16:22+08:00 ] ::1 /coding/API/eGoServer/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0011s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ego_user` SET `token`='7811bd456cddfee4d5cea2fd3663cf36' WHERE ( tel = '15659430523' ) [ RunTime:0.0004s ]
+
+[ 2016-08-19T17:17:09+08:00 ] ::1 /coding/API/eGoServer/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003180s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0022s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430521' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430521' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:17:46+08:00 ] ::1 /coding/API/eGoServer/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0015s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:18:31+08:00 ] ::1 /coding/API/eGoServer/api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0024s ]
+SQL: SELECT `salt` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `hash` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-19T17:20:58+08:00 ] ::1 /coding/API/eGoServer/api/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_user` WHERE ( tel = '15659430521' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `ego_user` (`tel`,`salt`,`hash`,`token`) VALUES ('15659430521','UUaOWVCT','506fdc683e127c6cf786c9d76bff0674','d5308513287b40bc8ff2c37f8c9e64ed') [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:22:34+08:00 ] ::1 /coding/API/eGoServer/api/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-08-19T17:27:11+08:00 ] ::1 /coding/API/eGoServer/api/verify-code/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-08-19T17:27:24+08:00 ] ::1 /coding/API/eGoServer/api/verify-code/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-08-19T17:27:26+08:00 ] ::1 /coding/API/eGoServer/api/verify-code/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-08-19T17:27:26+08:00 ] ::1 /coding/API/eGoServer/api/verify-code/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-08-19T17:27:36+08:00 ] ::1 /coding/API/eGoServer/api/verify-code/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-08-19T17:27:37+08:00 ] ::1 /coding/API/eGoServer/api/verify-code/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-08-19T17:31:53+08:00 ] ::1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) LIMIT 1   [ RunTime:0.0048s ]
+
+[ 2016-08-19T17:32:05+08:00 ] ::1 /coding/API/eGoServer/api/user/6f21fbddfa3cb74903126d82fd2af92e/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '6f21fbddfa3cb74903126d82fd2af92e' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-08-19T17:32:29+08:00 ] ::1 /coding/API/eGoServer/api/user/7811bd456cddfee4d5cea2fd3663cf36/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7811bd456cddfee4d5cea2fd3663cf36' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:33:36+08:00 ] ::1 /coding/API/eGoServer/api/user/7811bd456cddfee4d5cea2fd3663cf361/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7811bd456cddfee4d5cea2fd3663cf361' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-19T17:34:33+08:00 ] ::1 /coding/API/eGoServer/api/user/7811bd456cddfee4d5cea2fd3663cf36/115659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7811bd456cddfee4d5cea2fd3663cf36' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ego_user` WHERE ( tel = '115659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-19T17:38:03+08:00 ] ::1 /coding/API/eGoServer/api/user/7811bd456cddfee4d5cea2fd3663cf36/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7811bd456cddfee4d5cea2fd3663cf36' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ego_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-08-19T17:38:25+08:00 ] ::1 /coding/API/eGoServer/api/user/7811bd456cddfee4d5cea2fd3663cf36/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7811bd456cddfee4d5cea2fd3663cf36' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ego_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-19T17:38:39+08:00 ] ::1 /coding/API/eGoServer/api/user/7811bd456cddfee4d5cea2fd3663cf36/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7811bd456cddfee4d5cea2fd3663cf36' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ego_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-08-19T17:39:17+08:00 ] ::1 /coding/API/eGoServer/api/user/7811bd456cddfee4d5cea2fd3663cf36/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7811bd456cddfee4d5cea2fd3663cf36' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ego_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-08-19T17:39:36+08:00 ] ::1 /coding/API/eGoServer/api/user/7811bd456cddfee4d5cea2fd3663cf36/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7811bd456cddfee4d5cea2fd3663cf36' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ego_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-08-19T17:40:02+08:00 ] ::1 /coding/API/eGoServer/api/user/7811bd456cddfee4d5cea2fd3663cf36/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7811bd456cddfee4d5cea2fd3663cf36' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`gender`,`tel`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0004s ]
+

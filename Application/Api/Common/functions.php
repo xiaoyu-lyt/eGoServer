@@ -14,7 +14,7 @@
  * @return string
  */
 function send_verify_code($tel) {
-    return "" . rand(1000, 9999) . "";
+    return "" . rand(100000, 999999) . "";
 }
 
 /**

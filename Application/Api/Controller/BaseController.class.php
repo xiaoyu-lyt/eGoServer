@@ -14,4 +14,9 @@ load("@.functions");
 
 class BaseController extends RestController
 {
+    public function checkToken($token) {
+        if (!D('User')->checkToken($token)) {
+            $this->response(array('error'=>'Token验证失败'), 'json', 401);
+        }
+    }
 }

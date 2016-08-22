@@ -12,8 +12,10 @@ return array(
     'URL_ROUTER_ON' => true,        // 是否开启URL路由
     'URL_ROUTE_RULES' => array(     // 路由规则
         // 获取验证码
-        array('verify-code/:tel$', 'User/verifyCode', '', array('method' => 'get')),
-        array('register$', 'User/register', '', array('method' => 'post')),
         array('login', 'User/login', '', array('method' => 'post')),
+        array('register$', 'User/register', '', array('method' => 'post')),
+        array('verify-code/:tel$', 'User/getVerifyCode', '', array('method' => 'get')),
+        array('user/:token/:tel$', 'User/getUserInfo', '', array('method' => 'get')),
+        array('student-verify$', 'User/studentVerify', '', array('method' => 'post')),
     )
 );

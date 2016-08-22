@@ -76,4 +76,53 @@ class UserModel extends BaseModel
         }
         return $data['token'];
     }
+    
+    /**
+     * 检验用户token是否正确,正确返回true,错误返回false
+     * @access public
+     *
+     * @param string $token 用户token
+     *
+     * @return bool
+     */
+    public function checkToken($token) {
+        $user = M('User')->where("token = '{$token}'")->find();
+        if (!$user) {
+            return false;
+        }
+        return true;
+    }
+    
+    /**
+     * 获取用户信息,获取成功返回用户信息(数组),失败返回null
+     * @access public
+     *
+     * @param string $tel 用户手机号
+     *
+     * @return mixed|null
+     */
+    public function getUserInfo($tel) {
+        $user = M('User')->where("tel = '{$tel}'")->field('name, gender, tel, nickname, signature, avatar, school, college, major, stu_num')->find();
+        if (!$user) {
+            return null;
+        }
+        return $user;
+    }
+    
+    /**
+     * 学生通过身份验证后更新学生信息,更新成功返回true,失败返回false
+     * @access public
+     *
+     * @param string $token 学生用户token
+     * @param array  $data  学生信息数组
+     *
+     * @return bool
+     */
+    public function updateStudentInfo($token, $data) {
+        $id = M('User')->where("token = '{$token}'")->save($data);
+        if (!$id) {
+            return false;
+        }
+        return true;
+    }
 }
