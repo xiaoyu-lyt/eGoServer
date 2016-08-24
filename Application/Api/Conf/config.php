@@ -16,6 +16,7 @@ return array(
         array('register$', 'User/register', '', array('method' => 'post')),
         array('verify-code/:tel$', 'User/getVerifyCode', '', array('method' => 'get')),
         array('user/:token/:tel$', 'User/getUserInfo', '', array('method' => 'get')),
+        array('user$', 'User/modifyUserInfo', '', array('method' => 'put')),
         array('student-verify$', 'User/studentVerify', '', array('method' => 'post')),
     )
 );

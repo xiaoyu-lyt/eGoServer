@@ -110,6 +110,27 @@ class UserModel extends BaseModel
     }
     
     /**
+     * 更新用户信息
+     * @access public
+     *
+     * @param string $token 用户令牌
+     * @param array  $data  要更新的用户信息数组
+     *
+     * @return bool
+     */
+    public function updateUserInfo($token, $data) {
+        if ($data['password'] != null) {
+            $salt = M('User')->where("token = '{$token}'")->getField('salt');
+            $data['hash'] = md5(hash('sha256', $data['password']) . $salt);
+        }
+        $id = M('User')->where("token = '{$token}'")->save($data);
+        if (!$id) {
+            return false;
+        }
+        return true;
+    }
+    
+    /**
      * 学生通过身份验证后更新学生信息,更新成功返回true,失败返回false
      * @access public
      *

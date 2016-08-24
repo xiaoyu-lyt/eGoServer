@@ -46,7 +46,7 @@ class UserController extends BaseController
     }
     
     /**
-     * 用户登录检验,登录成功返回新token,用户不存在返回0,账号或密码错误返回1,token更新失败返回2
+     * 用户登录检验,登录成功返回新token,失败返回错误信息
      * @access public
      */
     public function login_post() {
@@ -70,6 +70,13 @@ class UserController extends BaseController
         }
     }
     
+    /**
+     * 获取用户信息,成功返回用户信息,失败返回错误信息
+     * @access public
+     *
+     * @param string $token 当前用户令牌
+     * @param string $tel   要查询的用户的手机号
+     */
     public function getUserInfo_get($token, $tel) {
         $this->checkToken($token);
         
@@ -81,7 +88,22 @@ class UserController extends BaseController
     }
     
     /**
-     * 学生身份验证,成功返回认证成功,用户token验证失败返回0,学号密码错误返回1,学生信息更新失败返回2
+     * 更新用户信息,成功不返回数据,失败返回错误信息
+     * @access public
+     */
+    public function modifyUserInfo_put() {
+        $data = I('put.');
+        $this->checkToken($data['token']);
+        
+        $updateResult = D('User')->updateUserInfo($data['token'], $data);
+        if (!$updateResult) {
+            $this->response(array('error' => '信息更新失败'), 'json', 500);
+        }
+        $this->response(null, 'json', 204);
+    }
+    
+    /**
+     * 学生身份验证,成功返回认证成功,失败返回错误信息
      * @access public
      *
      * @param string $token        学生用户token
