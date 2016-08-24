@@ -18,5 +18,8 @@ return array(
         array('user/:token/:tel$', 'User/getUserInfo', '', array('method' => 'get')),
         array('user$', 'User/modifyUserInfo', '', array('method' => 'put')),
         array('student-verify$', 'User/studentVerify', '', array('method' => 'post')),
+        
+        array('bus$', 'Bus/getBusInfo', '', array('method' => 'get')),
+        array('bus/:id$', 'Bus/getBusInfo', '', array('method' => 'get')),
     )
 );
