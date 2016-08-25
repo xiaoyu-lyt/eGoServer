@@ -21,5 +21,6 @@ return array(
         
         array('bus$', 'Bus/getBusInfo', '', array('method' => 'get')),
         array('bus/:id$', 'Bus/getBusInfo', '', array('method' => 'get')),
+        array('bus$', 'Bus/updateBusLocation', '', array('method' => 'put')),
     )
 );

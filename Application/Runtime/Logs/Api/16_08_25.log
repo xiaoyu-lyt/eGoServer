@@ -1,0 +1,47 @@
+[ 2016-08-25T10:30:35+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0012s ]
+SQL: UPDATE `ego_bus` SET `latitude`='26.059523',`longitude`='119.194198' WHERE ( id = '1' ) [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/coding/API/eGoServer/ThinkPHP/Library/Think/Controller/RestController.class.php 第 232 行.
+
+[ 2016-08-25T10:31:26+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: UPDATE `ego_bus` SET `latitude`='26.059524',`longitude`='119.194199' WHERE ( id = '1' ) [ RunTime:0.0004s ]
+
+[ 2016-08-25T10:31:34+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-08-25T10:31:41+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-08-25T10:31:45+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: UPDATE `ego_bus` SET `latitude`='26.059524',`longitude`='119.194199' WHERE ( id = '1' ) [ RunTime:0.0004s ]
+

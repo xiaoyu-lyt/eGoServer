@@ -26,4 +26,12 @@ class BusModel extends BaseModel
             return $bus;
         }
     }
+    
+    public function updateBusLocation($id, $latitude, $longitude) {
+        $result = M('Bus')->where("id = '{$id}'")->save(array('latitude' => $latitude, 'longitude' => $longitude));
+        if (!$result) {
+            return false;
+        }
+        return true;
+    }
 }
