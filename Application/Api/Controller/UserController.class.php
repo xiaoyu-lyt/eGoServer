@@ -13,13 +13,25 @@ use Api\Controller\BaseController;
 class UserController extends BaseController
 {
     /**
-     * 获取手机验证码,成功返回验证码,失败返回错误信息
+     * 获取验证码,成功返回验证码,失败返回错误信息
      * @access public
      *
-     * @param $tel
+     * @param string $receiver 接收验证码的对象(手机号或邮箱)
+     * @param string $type     接收者类型,只能为tel或email
      */
-    public function getVerifyCode_get($tel) {
-        $verifyCode = send_verify_code($tel);
+    public function getVerifyCode_get($receiver, $type) {
+        $verifyCode = null;
+        switch ($type) {
+            case 'tel':
+                $verifyCode = send_tel_verify_code($receiver);
+                break;
+            case 'email':
+                $verifyCode = send_email_verify_code($receiver);
+                break;
+            default:
+                $this->response(array('error' => '错误的请求'), 'json', 400);
+                break;
+        }
         if ($verifyCode === 0) {
             $this->response(array('error' => '验证码发送失败'), 'json', 500);
         }

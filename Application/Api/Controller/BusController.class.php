@@ -12,6 +12,12 @@ use Api\Controller\BaseController;
 
 class BusController extends BaseController
 {
+    /**
+     * 获取小白位置信息,成功返回小白信息,失败返回错误信息
+     * @access public
+     *
+     * @param integer|null $id 要查询的小白id,不指定则获取所有小白信息
+     */
     public function getBusInfo_get($id = null) {
         $busInfo = D('Bus')->getBusInfo($id);
         if (!$busInfo) {
@@ -20,6 +26,10 @@ class BusController extends BaseController
         $this->response($busInfo, 'json', 200);
     }
     
+    /**
+     * 更新小白信息,成功不反悔数据,失败返回错误信息
+     * @access public
+     */
     public function updateBusLocation_put() {
         $id = I('put.id');
         $latitude = I('put.latitude');

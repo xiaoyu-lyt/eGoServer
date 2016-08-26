@@ -9,11 +9,22 @@
 /**
  * 发送手机验证码,成功返回验证码,失败返回0
  *
- * @param string $tel 接受验证码的手机号
+ * @param string $tel 接收验证码的手机号
  *
  * @return string
  */
-function send_verify_code($tel) {
+function send_tel_verify_code($tel) {
+    return "" . rand(100000, 999999) . "";
+}
+
+/**
+ * 发送邮箱验证码,成功返回验证码,失败返回0
+ *
+ * @param string $email 接收验证码的邮箱
+ *
+ * @return string
+ */
+function send_email_verify_code($email) {
     return "" . rand(100000, 999999) . "";
 }
 
