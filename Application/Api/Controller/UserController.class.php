@@ -19,7 +19,7 @@ class UserController extends BaseController
      * @param string $receiver 接收验证码的对象(手机号或邮箱)
      * @param string $type     接收者类型,只能为tel或email
      */
-    public function getVerifyCode_get($receiver, $type) {
+    public function getVerifyCode_get($receiver, $type = 'tel') {
         $verifyCode = null;
         switch ($type) {
             case 'tel':
