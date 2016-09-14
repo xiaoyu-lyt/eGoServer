@@ -27,7 +27,7 @@ return array(
         // 获取用户信息
         array('user/:token/:tel$', 'User/getUserInfo', '', array('method' => 'get')),
         // 修改用户信息
-        array('user$', 'User/modifyUserInfo', '', array('method' => 'put')),
+        array('user$', 'User/setUserInfo', '', array('method' => 'put')),
         // 学生身份认证
         array('student-verify$', 'User/studentVerify', '', array('method' => 'post')),
         

@@ -1,0 +1,21 @@
+[ 2016-09-13T09:48:21+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/f9233ac30c7bd35156d4890a0d5142f2/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = 'f9233ac30c7bd35156d4890a0d5142f2' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-09-13T09:48:42+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user/88efc0f27748b787352e369131c754ad/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '88efc0f27748b787352e369131c754ad' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0001s ]
+
