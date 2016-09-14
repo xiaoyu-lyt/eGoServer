@@ -102,7 +102,7 @@ class UserModel extends BaseModel
      * @return mixed|null
      */
     public function getUserInfo($tel) {
-        $user = M('User')->where("tel = '{$tel}'")->field('name, gender, tel, nickname, signature, avatar, school, college, major, stu_num')->find();
+        $user = M('User')->where("tel = '{$tel}'")->field('name, gender, tel, email, nickname, signature, avatar, school, college, major, stu_num')->find();
         if (!$user) {
             return null;
         }

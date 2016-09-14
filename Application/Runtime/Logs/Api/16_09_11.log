@@ -1,0 +1,1922 @@
+[ 2016-09-11T20:10:15+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:10:19+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-09-11T20:10:19+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0009s ]
+
+[ 2016-09-11T20:10:24+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:10:29+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:10:34+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:10:39+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:10:44+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:10:49+08:00 ] 127.0.0.1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:10:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:12:30+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:12:31+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:12:31+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:15:55+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `nickname`='萧宇',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0019s ]
+
+[ 2016-09-11T20:23:36+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:23:36+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:23:36+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:24:17+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:24:17+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0026s ]
+
+[ 2016-09-11T20:24:18+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:24:50+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:24:50+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:24:51+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:26:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:26:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:26:29+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:30:05+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:30:07+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:30:07+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:30:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:31:26+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:31:26+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-09-11T20:31:26+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:31:35+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:32:30+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:32:30+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-09-11T20:32:31+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:32:36+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:33:52+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:33:53+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:33:53+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:34:01+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:36:58+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:36:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:36:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:37:06+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:37:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:37:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:37:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:37:33+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:37:40+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0010s ]
+
+[ 2016-09-11T20:37:55+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:37:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:37:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:38:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:38:13+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:40:10+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:40:11+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:40:11+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:40:16+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:47:20+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:47:21+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:47:21+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:47:25+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:47:38+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:49:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:49:18+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:49:18+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:49:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:49:29+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:49:33+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:49:38+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:49:44+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0006s ]
+
+[ 2016-09-11T20:49:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004685s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:49:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:49:58+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:50:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0005s ]
+
+[ 2016-09-11T20:50:08+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:50:13+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:50:18+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:50:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:50:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:50:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:50:38+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:50:43+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:50:48+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:50:53+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:50:58+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:51:03+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:51:08+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:51:13+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:51:18+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:51:23+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:51:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:51:33+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:51:38+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:51:43+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:51:48+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:51:53+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:51:58+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:52:03+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:52:08+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:52:13+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:52:21+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:52:21+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:52:21+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:52:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:53:02+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:53:03+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:53:03+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:53:07+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:53:55+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002565s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:53:57+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:53:57+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:54:03+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:54:26+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:54:27+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:54:27+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:54:32+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:55:27+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:55:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:55:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005700s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:55:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊去',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:55:53+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:55:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002576s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:55:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:55:58+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:56:52+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:56:52+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:56:52+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:56:57+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:57:45+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002573s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:57:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:57:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:57:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:57:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:58:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:58:09+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:58:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T20:58:23+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T20:58:27+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-11T20:58:27+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-11T20:58:35+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T21:00:58+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T21:00:58+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T21:00:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T21:01:03+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T21:04:46+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T21:04:50+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T21:04:50+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T21:04:55+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T21:05:05+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0003s ]
+
+[ 2016-09-11T21:05:23+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T21:05:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-11T21:05:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T21:05:29+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T22:05:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T22:06:00+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T22:06:00+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T22:06:07+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T22:27:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T22:27:16+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T22:27:16+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0013s ]
+
+[ 2016-09-11T22:27:21+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T22:29:32+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T22:29:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-11T22:29:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0008s ]
+
+[ 2016-09-11T22:29:39+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T22:30:58+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T22:58:17+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T22:58:18+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-09-11T22:58:18+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-11T22:58:23+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇啊',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0003s ]
+
+[ 2016-09-11T22:59:22+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T22:59:23+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-09-11T22:59:23+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-11T22:59:29+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0003s ]
+
+[ 2016-09-11T23:03:18+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T23:03:20+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-11T23:03:20+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T23:03:27+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇说',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0002s ]
+
+[ 2016-09-11T23:03:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `email`='1060084430@qq.com',`nickname`='萧宇',`tel`='15659430523',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0003s ]
+
+[ 2016-09-11T23:04:26+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-11T23:04:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/7c8747c14a7bcd942cf1fd09fedd069c/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-09-11T23:04:28+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-11T23:05:27+08:00 ] 127.0.0.1 /coding/API/eGoServer/api/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: password /Applications/MAMP/htdocs/coding/API/eGoServer/Application/Api/Model/UserModel.class.php 第 122 行.
+SQL: UPDATE `ego_user` SET `nickname`='萧宇a',`token`='7c8747c14a7bcd942cf1fd09fedd069c' WHERE ( token = '7c8747c14a7bcd942cf1fd09fedd069c' ) [ RunTime:0.0003s ]
+

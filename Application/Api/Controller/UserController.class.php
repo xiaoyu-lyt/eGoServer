@@ -19,7 +19,7 @@ class UserController extends BaseController
      * @param string $receiver 接收验证码的对象(手机号或邮箱)
      * @param string $type     接收者类型,只能为tel或email
      */
-    public function getVerifyCode_get($receiver, $type) {
+    public function getVerifyCode_get($receiver, $type = 'tel') {
         $verifyCode = null;
         switch ($type) {
             case 'tel':
@@ -103,9 +103,20 @@ class UserController extends BaseController
      * 更新用户信息,成功不返回数据,失败返回错误信息
      * @access public
      */
-    public function modifyUserInfo_put() {
+    public function setUserInfo_put() {
         $data = I('put.');
         $this->checkToken($data['token']);
+        
+        if (isset($data['oldPassword'])) {
+            $salt = M('User')->where("token = '".$data['token']."'")->getField('salt');
+            $oldPassword = md5(hash('sha256', $data['oldPassword']) . $salt);
+            
+            if ($oldPassword != M('User')->where("token = '".$data['token']."'")->getField('hash')) {
+                $this->response(array('error' => '当前密码错误'), 'json', 400);
+            }
+            
+            $data['hash'] = md5(hash('sha256', $data['newPassword']) . $salt);
+        }
         
         $updateResult = D('User')->updateUserInfo($data['token'], $data);
         if (!$updateResult) {
