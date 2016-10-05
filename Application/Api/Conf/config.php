@@ -28,6 +28,8 @@ return array(
         array('user/:token/:tel$', 'User/getUserInfo', '', array('method' => 'get')),
         // 修改用户信息
         array('user$', 'User/setUserInfo', '', array('method' => 'put')),
+        // 修改头像
+        array('user-avatar$', 'User/setUserAvatar', '', array('method' => 'put')),
         // 学生身份认证
         array('student-verify$', 'User/studentVerify', '', array('method' => 'post')),
         
@@ -44,5 +46,9 @@ return array(
         array('building$', 'Building/getBuildingLocation', '', array('method' => 'get')),
         // 获取单个建筑信息
         array('building/:id$', 'Building/getBuildingLocation', '', array('method' => 'get')),
+        
+        // ChatCenterController
+        array('chat-center$', 'ChatCenter/getAllChat', '', array('method' => 'get')),
+        array('chat-center/comments/:id$', 'ChatCenter/getComments', '', array('method' => 'get')),
     )
 );

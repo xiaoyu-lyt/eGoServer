@@ -125,6 +125,31 @@ class UserController extends BaseController
         $this->response(null, 'json', 204);
     }
     
+    public function setUserAvatar_put() {
+        $this->checkToken(I('put.token'));
+        $data = I('put.image');
+        $filename = I('put.filename');
+        //处理数据
+        $data = str_replace(' ','',$data);
+        $data = str_ireplace("&lt;",'',$data);
+        $data = str_ireplace("&gt;",'',$data);
+        $data = pack("H*", $data);
+        $file = fopen("./Public/images/User/".$filename.'.png', "w");//打开文件准备写入
+        $writeResult = fwrite($file, $data);//写入
+        fclose($file);//关闭
+        
+        if (!$writeResult) {
+            $this->response(array('error' => '图片保存失败'), 'json', 500);
+        }
+    
+        $updateResult = D('User')->updateUserInfo(I('put.token'), array('avatar' => $filename));
+        if (!$updateResult) {
+            $this->response(array('error' => '信息更新失败'), 'json', 500);
+        }
+        
+        $this->response(array('msg' => 'success'), 'json', 204);
+    }
+    
     /**
      * 学生身份验证,成功返回认证成功,失败返回错误信息
      * @access public

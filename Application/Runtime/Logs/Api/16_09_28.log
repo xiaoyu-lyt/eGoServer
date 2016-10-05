@@ -1,0 +1,920 @@
+[ 2016-09-28T22:09:40+08:00 ] ::1 /coding/API/eGoServer/index.php/api/SystemImages/getBackgroundImage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+ERR: 非法操作:getbackgroundimage
+
+[ 2016-09-28T22:09:45+08:00 ] ::1 /coding/API/eGoServer/index.php/api/user/babc8f75bf076c94b981bcbac1a7f5d7/15659430523.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `ego_user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ego_user` WHERE ( token = 'babc8f75bf076c94b981bcbac1a7f5d7' ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SELECT `name`,`gender`,`tel`,`email`,`nickname`,`signature`,`avatar`,`school`,`college`,`major`,`stu_num` FROM `ego_user` WHERE ( tel = '15659430523' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-09-28T22:09:45+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0021s ]
+
+[ 2016-09-28T22:09:50+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-28T22:09:57+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-28T22:10:00+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:10:06+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:10:10+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:10:11+08:00 ] ::1 /coding/API/eGoServer/index.php/api/image/banner-images
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `ego_system_images` [ RunTime:0.0027s ]
+SQL: SELECT `value` FROM `ego_system_images` WHERE ( property = 'banner' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-09-28T22:10:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:10:39+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:10:44+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:10:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:10:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:10:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:11:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0007s ]
+
+[ 2016-09-28T22:11:09+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:11:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:11:19+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:11:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:11:29+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0007s ]
+
+[ 2016-09-28T22:11:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:11:39+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:11:44+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:11:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:11:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:11:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:12:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:12:09+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:12:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:12:19+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:12:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:12:29+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:12:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:12:39+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:12:44+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:12:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:12:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:12:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:13:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:13:09+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0004s ]
+
+[ 2016-09-28T22:13:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:13:19+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:13:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:13:29+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:13:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:13:39+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:13:44+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:13:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:13:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:13:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:14:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:14:09+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:14:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:14:19+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:14:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:14:29+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:14:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:14:39+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:14:44+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:14:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:14:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:14:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:15:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:15:09+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:15:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:15:19+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:15:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:15:29+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:15:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:15:39+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:15:44+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:15:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:15:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:15:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:16:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:16:09+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0007s ]
+
+[ 2016-09-28T22:16:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:16:19+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:16:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:16:29+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:16:34+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:16:39+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:16:44+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:16:49+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0005s ]
+
+[ 2016-09-28T22:16:54+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:16:59+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:17:04+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
+[ 2016-09-28T22:17:09+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:17:14+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:17:19+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0003s ]
+
+[ 2016-09-28T22:17:24+08:00 ] ::1 /coding/API/eGoServer/index.php/api/bus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `ego_bus` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ego_bus`  [ RunTime:0.0002s ]
+
