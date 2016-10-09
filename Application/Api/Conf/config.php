@@ -50,5 +50,7 @@ return array(
         // ChatCenterController
         array('chat-center$', 'ChatCenter/getAllChat', '', array('method' => 'get')),
         array('chat-center/comments/:id$', 'ChatCenter/getComments', '', array('method' => 'get')),
+        array('chat-center/like$', 'ChatCenter/like', '', array('method' => 'post')),
+        array('chat-center/unlike$', 'ChatCenter/unlike', '', array('method' => 'post')),
     )
 );

@@ -47,4 +47,22 @@ class ChatCenterModel extends BaseModel
         }
         return $data;
     }
+    
+    public function like($chatId, $userId) {
+        $data['chat_id'] = $chatId;
+        $data['user_id'] = $userId;
+        $id = M('Chat_liked')->data($data)->add();
+        if (!$id) {
+            return false;
+        }
+        return true;
+    }
+    
+    public function unlike($chatId, $userId) {
+        $id = M('Chat_liked')->where("chat_id = {$chatId} and user_id = {$userId}")->delete();
+        if (!$id) {
+            return false;
+        }
+        return true;
+    }
 }
